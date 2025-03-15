@@ -1,5 +1,6 @@
-if game.PlaceId ~= 4620170611 then
-    return print("Bu script sadece 'Break In (Story)' oyununda çalışır.")
+if game.PlaceId ~= 301549746 then
+    game.Players.LocalPlayer:Kick("Not Supported Game.")
+    return
 end
 
 local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
