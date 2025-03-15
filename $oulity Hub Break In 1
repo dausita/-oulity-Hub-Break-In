@@ -1,4 +1,4 @@
-if game.PlaceId ~= 4620170611 then
+if game.PlaceId ~= 3851622790 then
     game.Players.LocalPlayer:Kick("Not Supported Game.")
     return
 end
