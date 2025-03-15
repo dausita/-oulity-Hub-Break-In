@@ -39,7 +39,7 @@ Fluent:Notify({
 
 Tabs.Main:AddButton({
     Title = "Get Chips",
-    Description = "",
+    Description = "Use It In The Game",
     Callback = function()
         game.ReplicatedStorage.RemoteEvents.GiveTool:FireServer("Chips")
     end 
@@ -47,7 +47,7 @@ Tabs.Main:AddButton({
 
 Tabs.Main:AddButton({
     Title = "Get Bloxy Cola",
-    Description = "",
+    Description = "Use It In The Game",
     Callback = function()
         game.ReplicatedStorage.RemoteEvents.GiveTool:FireServer("BloxyCola")
     end
@@ -56,7 +56,7 @@ Tabs.Main:AddButton({
 
 Tabs.Main:AddButton({
     Title = "Get Apple",
-    Description = "",
+    Description = "Use It In The Game",
     Callback = function()
         game.ReplicatedStorage.RemoteEvents.GiveTool:FireServer("Apple")
     end
@@ -64,7 +64,7 @@ Tabs.Main:AddButton({
 
 Tabs.Main:AddButton({
     Title = "Get Pizza",
-    Description = "",
+    Description = "Use It In The Game",
     Callback = function()
         game.ReplicatedStorage.RemoteEvents.GiveTool:FireServer("Pizza3")
     end
@@ -72,7 +72,7 @@ Tabs.Main:AddButton({
 
 Tabs.Main:AddButton({
     Title = "Get Cookie",
-    Description = "",
+    Description = "Use It In The Game",
     Callback = function()
         game.ReplicatedStorage.RemoteEvents.GiveTool:FireServer("Cookie")
     end
@@ -80,7 +80,7 @@ Tabs.Main:AddButton({
 
 Tabs.Main:AddButton({
     Title = "Get Medkit",
-    Description = "",
+    Description = "Use It In The Game",
     Callback = function()
         game.ReplicatedStorage.RemoteEvents.GiveTool:FireServer("MedKit")
     end
@@ -88,7 +88,7 @@ Tabs.Main:AddButton({
 
 Tabs.Main:AddButton({
     Title = "Get Cure",
-    Description = "",
+    Description = "Use It In The Game",
     Callback = function()
         game.ReplicatedStorage.RemoteEvents.GiveTool:FireServer("Cure")
     end
@@ -96,7 +96,7 @@ Tabs.Main:AddButton({
 
 Tabs.Main:AddButton({
     Title = "Get Bat",
-    Description = "",
+    Description = "Use It In The Game",
     Callback = function()
         game.ReplicatedStorage.RemoteEvents.GiveTool:FireServer("Bat")
     end
@@ -104,7 +104,7 @@ Tabs.Main:AddButton({
 
 Tabs.Main:AddButton({
     Title = "Get Teddy",
-    Description = "",
+    Description = "Use It In The Game",
     Callback = function()
         game.ReplicatedStorage.RemoteEvents.GiveTool:FireServer("TeddyBloxpin")
     end
@@ -112,7 +112,7 @@ Tabs.Main:AddButton({
 
 Tabs.Main:AddButton({
     Title = "Get Sword",
-    Description = "",
+    Description = "Use It In The Game",
     Callback = function()
         game.ReplicatedStorage.RemoteEvents.GiveTool:FireServer("LinkedSword")
     end
@@ -120,7 +120,7 @@ Tabs.Main:AddButton({
 
 Tabs.Main:AddButton({
     Title = "Get Lollipop",
-    Description = "",
+    Description = "Use It In The Game",
     Callback = function()
         game.ReplicatedStorage.RemoteEvents.GiveTool:FireServer("Lollipop")
     end
@@ -128,7 +128,7 @@ Tabs.Main:AddButton({
 
 Tabs.Main:AddButton({
     Title = "Get Key",
-    Description = "",
+    Description = "Use It In The Game",
     Callback = function()
         game.ReplicatedStorage.RemoteEvents.GiveTool:FireServer("Key")
     end
@@ -136,7 +136,7 @@ Tabs.Main:AddButton({
 
 Tabs.Main:AddButton({
     Title = "Get Hammer",
-    Description = "",
+    Description = "Use It In The Game",
     Callback = function()
         local A_1 = true
 local A_2 = "Hammer"
@@ -147,7 +147,7 @@ Event:FireServer(A_1, A_2)
 
 Tabs.Main:AddButton({
     Title = "Get Planks",
-    Description = "",
+    Description = "Use It In The Game",
     Callback = function()
         game.ReplicatedStorage.RemoteEvents.GiveTool:FireServer("Plank")
     end
@@ -155,7 +155,7 @@ Tabs.Main:AddButton({
 
 Tabs.Roles:AddButton({
     Title = "Police",
-    Description = "Use It On Lobby",
+    Description = "Use It In The Lobby",
     Callback = function()
         local A_1 = "Gun"
 local A_2 = true
@@ -166,7 +166,7 @@ Event:FireServer(A_1, A_2)
 
 Tabs.Roles:AddButton({
     Title = "Swat",
-    Description = "Use It On Lobby",
+    Description = "Use It In The Lobby",
     Callback = function()
         local A_1 = "SwatGun"
 local A_2 = true
@@ -177,7 +177,7 @@ Event:FireServer(A_1, A_2)
 
 Tabs.Teleport:AddButton({
     Title = "Basement",
-    Description = "",
+    Description = "Use It In The Game",
     Callback = function()
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(71, -15, -163)
     end
@@ -185,7 +185,7 @@ Tabs.Teleport:AddButton({
 
 Tabs.Teleport:AddButton({
     Title = "House",
-    Description = "",
+    Description = "Use It In The Game",
     Callback = function()
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-36, 3, -200)
     end
@@ -193,7 +193,7 @@ Tabs.Teleport:AddButton({
 
 Tabs.Teleport:AddButton({
     Title = "Hiding Spot",
-    Description = "",
+    Description = "Use It In The Game",
     Callback = function()
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-42.86656951904297, 6.433286666870117, -222.01171875)
     end
@@ -201,7 +201,7 @@ Tabs.Teleport:AddButton({
 
 Tabs.Teleport:AddButton({
     Title = "Attic",
-    Description = "",
+    Description = "Use It In The Game",
     Callback = function()
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-16, 35, -220)
     end
@@ -209,7 +209,7 @@ Tabs.Teleport:AddButton({
 
 Tabs.Teleport:AddButton({
     Title = "Store",
-    Description = "",
+    Description = "Use It In The Game",
     Callback = function()
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-422, 3, -121)
     end
@@ -217,7 +217,7 @@ Tabs.Teleport:AddButton({
 
 Tabs.Teleport:AddButton({
     Title = "Sewer",
-    Description = "",
+    Description = "Use It In The Game",
     Callback = function()
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(129, 3, -125)
     end
@@ -225,7 +225,7 @@ Tabs.Teleport:AddButton({
 
 Tabs.Teleport:AddButton({
     Title = "Boss Room",
-    Description = "",
+    Description = "Use It In The Game",
     Callback = function()
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-39, -287, -1480)
     end
@@ -233,7 +233,7 @@ Tabs.Teleport:AddButton({
 
 Tabs.Misc:AddButton({
     Title = "Kill All Enemies",
-    Description = "",
+    Description = "Use It In The Game",
     Callback = function()
         for i,v in pairs(game.Workspace.BadGuys:GetChildren()) do
         for i = 1, 50 do
@@ -249,7 +249,7 @@ end
 
 Tabs.Misc:AddButton({
     Title = "Instant Heal",
-    Description = "",
+    Description = "Use It In The Game",
     Callback = function()
         for i = 1, 200 do
         wait(0.005)
@@ -262,7 +262,7 @@ end
 
 Tabs.Misc:AddButton({
     Title = "Be Friends with Cat",
-    Description = "",
+    Description = "Use It In The Game",
     Callback = function()
         local Target = game:GetService("ReplicatedStorage").RemoteEvents.Cattery;
     Target:FireServer();
